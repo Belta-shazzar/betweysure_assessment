@@ -71,3 +71,18 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](LICENSE).
+
+## Start here
+## Endpoint
+
+### GET /date-range
+
+**Query Parameters:**
+
+- `from`: Start date (format: "YYYY-MM-DD")
+- `to`: End date (format: "YYYY-MM-DD")
+
+**Sample Request:**
+```bash
+curl -X GET 'https://betweysure-assessment.onrender.com/football/?from=22-09-01&to=24-06-01'
+
